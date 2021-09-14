@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+    int a=25;
+    printf("\n the value now is %d",a);
+    a=a+10;
+    printf("\n the value after the expression (a=a+10) is %d",a);
+    a=a+a;
+    printf("\n the value  after the expression (a=a+a) is %d",a);
+}
